@@ -1,0 +1,35 @@
+.paginator{
+    display: flex;
+    margin-top: 20px;
+}
+
+.item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 18px;
+    width: 35px;
+    height: 35px;
+    transition: .2s linear;
+    border-radius: 8px;
+    margin-right: 3px;
+}
+
+.item:hover{
+    background: #e3e3e3;
+}
+
+.active{
+    background: #e3e3e3;
+}
+
+.inactive-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    width: 35px;
+    height: 35px;
+    pointer-events: none;
+}
